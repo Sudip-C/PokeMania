@@ -1,9 +1,22 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # PokeMania
+Use React functional components.
+Utilize Custom Hooks for managing the dropdown and navigation state.
+Ensure clean and readable code with appropriate comments.
+Dropdown:
+
+A dropdown to select a Pokemon.
+Navigation Buttons:
+
+"Next" and "Previous" buttons to navigate through the Pokemon list.
+The name in the dropdown should update when navigating using the buttons.
+Button States:
+
+The "Previous" button should be disabled when on the first Pokemon.
+The "Next" button should be disabled when on the last Pokemon.
+Dropdown Interaction:
+
+If a user selects a Pokemon from the dropdown and clicks "Next," the navigation should proceed from the selected Pokemon in the same order as provided in the dataset.
+Custom Hook:
+
+Use a Custom Hook to manage the application state.
